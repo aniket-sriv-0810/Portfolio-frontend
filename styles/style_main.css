@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;900&display=swap');
+/* main-content */
+/* about myself style */
+
+/* bg-image in coder */
+.about{
+    background-image: url(/Images/bg-pic.jpg);
+    background-size: cover;
+    background-position: 0.125rem -6.25rem;
+    width:100%;
+    height:41.875rem;
+    backdrop-filter: blur(1.25rem);
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    }
+/* hi its part */
+.head-one{
+    position: relative;
+    top:4.375rem;
+    left: 23.125rem;
+    font-size: 2.8125rem;
+    width: fit-content;
+    font-family: 'Acme', sans-serif;
+    color:azure;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+/* Aniket part */
+.head-name{
+    position: relative;
+    top:4.375rem;
+    left:6.875rem;
+    font-size: 4.6875rem;
+    text-transform: uppercase;
+    width: fit-content;
+    font-family: 'Acme', sans-serif;
+    color:azure;
+    text-shadow: 4px 4px 5px rgb(0, 57, 0);
+}
+/* full stack part */
+.head-title{
+    position: relative;
+    top:5rem;
+    left:11.25rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: fit-content;
+    font-family: 'Acme', sans-serif;
+    color:rgb(16, 181, 16);
+    text-shadow: 3px 3px 3px black;
+}
+/* profile circle */
+.circle{
+    position: absolute;
+    top:2.5rem;
+    right:5.625rem;
+    width:18.75rem;
+    height:18.75rem;
+    background-color: rgb(31, 31, 32);
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px rgb(7, 117, 7);
+    
+}
+/* profile image */
+.circle img{
+    width:18.75rem;
+    height:18.75rem;
+    border-radius: 50%;
+    border:3px solid rgb(12, 4, 158);
+    box-shadow: -3px -3px 10px rgb(7, 144, 183);
+}
+/* web-icon design */
+.arrow{
+    position: relative;
+    width:12.5rem;
+    top:8.125rem;
+    left:13.75rem;
+    opacity: .8;
+}
+/* content */
+.content{
+    position: relative;
+    top:-5.625rem;
+    left:30rem;
+    font-size: 1.25rem;
+    width:40.625rem;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    word-spacing: 0.3125rem;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 1px;
+    user-select:none;
+    text-align: justify;
+}
+.content strong{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);;
+}
+
+/* responsive website */
+/* mobile view */
+/* small phones */
+@media (min-width : 270px) and (max-width : 330px){
+    .about{
+        height:5.175rem;
+      }
+      .head-one{
+        top:0.575rem;
+        left: 4.525rem;
+        font-size: 0.7rem;
+    }
+    .head-name{
+        top:0.75rem;
+        left:1.475rem;
+        font-size: 0.9rem;
+    }
+    .head-title{
+        top:0.9rem;
+        left:1.4rem;
+        font-size: 0.7rem;
+    }
+    .circle{
+        top:0.25rem;
+        right:1.625rem;
+        width:3.85rem;
+        height:3.75rem;
+        box-shadow: none;
+    }
+    .circle img{
+        width:3.65rem;
+        height:3.45rem;
+    }
+    .arrow{
+        width:3.5rem;
+        top:2.8rem;
+        left:9.05rem;
+    }
+    .content{
+        top:3.655rem;
+        left:2rem;
+        font-size: 1rem;
+        width:16.625rem;
+        word-spacing: 0px;
+    }
+}
+/* medium phones & large phones */
+@media (min-width: 331px) and (max-width: 450px){
+    .about{
+        height:6.875rem;
+      }
+      .head-one{
+        position: relative;
+        top:0.575rem;
+        left: 5.425rem;
+        font-size: 1rem;
+    }
+    .head-name{
+        position: relative;
+        top:0.75rem;
+        left:1.875rem;
+        font-size: 1.2rem;
+    }
+    .head-title{
+        position: relative;
+        top:1rem;
+        left:1.55rem;
+        font-size: 0.9rem;
+    }
+    .circle{
+        position: absolute;
+        top:0.45rem;
+        right:1.625rem;
+        width:4.85rem;
+        height:4.75rem;
+        box-shadow: none;
+    }
+    .circle img{
+        width:4.65rem;
+        height:4.45rem;
+    }
+    .arrow{
+        position: relative;
+        width:3.5rem;
+        top:4.125rem;
+        left:10.05rem;
+    }
+    .content{
+        margin-left: 0.5rem;
+        top:5.55rem;
+        left:2rem;
+        font-size: 1rem;
+        width:18.25rem;
+        word-spacing: 0px;
+    }
+}
+@media (min-width:370px) and (max-width:410px){
+    .content{
+        margin-left: 0.6rem;
+        top:5.655rem;
+        left:2rem;
+        font-size: 1.1rem;
+        width:19rem;
+        word-spacing: 0px;
+    }
+}
+@media (min-width:410px) and (max-width:450px){
+    .arrow{
+        left:11rem;
+    }
+    .content{
+        margin-left: 1rem;
+        top:5.655rem;
+        left:2rem;
+        font-size: 1.2rem;
+        width:20rem;
+        word-spacing: 0px;
+    }
+}
+
+/* tablets  & phone landscape*/
+@media (min-width: 451px) and (max-width: 1023px){
+    .about{
+        height:21.875rem;
+      }
+      .head-one{
+        top:1.2rem;
+        left: 8.5rem;
+        font-size: 1.5rem;
+    }
+    .head-name{
+        top:1.55rem;
+        left:2.875rem;
+        font-size: 2.15rem;
+    }
+    .head-title{
+        top:2rem;
+        left:3.25rem;
+        font-size: 1.5rem;
+    }
+    .circle{
+        top:0.4rem;
+        right:4.625rem;
+        width:8.5rem;
+        height:8.5rem;
+    }
+    .circle img{
+        width:8.5rem;
+        height:8.5rem;
+    }
+    .arrow{
+        width:6.5rem;
+        top:3.125rem;
+        left:6.75rem;
+    }
+    .content{
+        top:-3.2rem;
+        left:15rem;
+        font-size: 0.78rem;
+        width:26rem;
+    }
+    }
+    /* small phone landscape */
+    @media (min-width : 500px) and (max-width:600px){
+        .about{
+            height:14.875rem;
+          }
+          .head-one{
+            position: relative;
+            top:0.575rem;
+            left: 5.425rem;
+            font-size: 1rem;
+        }
+        .head-name{
+            position: relative;
+            top:0.75rem;
+            left:1.875rem;
+            font-size: 1.2rem;
+        }
+        .head-title{
+            position: relative;
+            top:1rem;
+            left:1.55rem;
+            font-size: 0.9rem;
+        }
+        .circle{
+            position: absolute;
+            top:0.45rem;
+            right:2.25rem;
+            width:4.85rem;
+            height:4.75rem;
+            box-shadow: none;
+        }
+        .circle img{
+            width:4.65rem;
+            height:4.45rem;
+        }
+        .arrow{
+            position: relative;
+            width:3.5rem;
+            top:2.125rem;
+            left:4.05rem;
+        }
+        .content{
+            margin-left: 0.5rem;
+            top:-1.55rem;
+            left:9rem;
+            font-size: 0.65rem;
+            width:22.25rem;
+            word-spacing: 0px;
+        }
+    }
+    /* tablets & tablet landscapes */
+    @media (min-width: 1024px) and (max-width: 1200px){
+        .about{
+            height:32.875rem;
+          }
+          .head-one{
+            top:1.175rem;
+            left: 12.125rem;
+            font-size: 2.2125rem;
+        }
+        .head-name{
+            top:1.375rem;
+            left:3.875rem;
+            font-size: 2.6875rem;
+        }
+        .head-title{
+            top:2rem;
+            left: 4.8rem;
+            font-size: 1.8rem;
+        }
+        .circle{
+            top:1.2rem;
+            right:6.625rem;
+            width:9.95rem;
+            height:9.75rem;
+        }
+        .circle img{
+            width:9.75rem;
+            height:9.75rem;
+        }
+        .arrow{
+            width:8.5rem;
+            top:4.125rem;
+            left:9.75rem;
+        }
+        .content{
+            top:-4.625rem;
+            left:22rem;
+            font-size: 1.3rem;
+            width:38.625rem;
+        }
+    }
+    /* extra large laptops */
+@media (min-width: 1200px) and (max-width: 1450px){
+  .about{
+    height:37.875rem;
+  }
+  .head-one{
+    top:1.375rem;
+    left: 16.125rem;
+    font-size: 2.9125rem;
+}
+.head-name{
+    top:1.375rem;
+    left:4.875rem;
+    font-size: 3.6875rem;
+}
+.head-title{
+    top:2rem;
+    left: 6rem;
+    font-size: 2.5rem;
+}
+.circle{
+    position: absolute;
+    top:1.2rem;
+    right:7.625rem;
+    width:12.95rem;
+    height:12.75rem;
+}
+.circle img{
+    width:12.75rem;
+    height:12.75rem;
+}
+.arrow{
+    position: relative;
+    width:9.5rem;
+    top:4.125rem;
+    left:13.75rem;
+}
+.content{
+    top:-5.625rem;
+    left:26rem;
+    font-size: 1.5rem;
+    width:38.625rem;
+}
+}

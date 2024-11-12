@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;900&display=swap');
+/* my skills design */
+/* my projects */
+.head-work{
+    position: relative;
+    top:23.125rem;
+    left:5.875rem;
+    font-size: 2.8125rem;
+    text-transform: uppercase;
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    color:azure;
+    text-shadow: 2px 2px 2px rgb(3, 61, 3);
+    word-spacing: 0.625rem;
+}
+/* div one */
+.skills{
+    background: linear-gradient(to right,black,rgba(18, 9, 9, 0.963));
+}
+.work-one , .work-two ,.work-three{
+    position: relative;
+    margin-left: 1.25rem;
+    width:95%;
+    height:15rem;
+    top: 26.875rem;
+    border-radius: 3.125rem;
+    background-color: rgba(13, 13, 23, 0.481);
+    border:2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 1px rgb(8, 72, 111);
+}
+.work-one:hover , .work-two:hover ,.work-three:hover{
+    cursor:pointer;
+    background-color: rgba(4, 26, 44, 0.639);
+}
+.work-one h3 , .work-two h3 , .work-three h3{
+    position: relative;
+    float: right;
+    right:5.9375rem;
+    top:0.625rem;
+    font-size: 1.375rem;
+    padding: 0.625rem;
+    word-spacing: 0.3125rem;
+    color:azure;
+    width: fit-content;
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+}
+.pic-one-skill , .pic-two-skill , .pic-three-skill{
+    position: relative;
+    float: right;
+    top:3.75rem;
+    right:-1.875rem;
+    width: 5rem;
+    border:2px solid black;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3125rem;
+}
+.skill-para , .skill-para2 , .skill-para3{
+    margin-left: 2.5rem;
+    font-size: 1.3125rem;
+    padding: 1.25rem;
+    word-spacing: 0.25rem;
+    font-weight: 500;
+    color:azure;
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+    text-transform: uppercase;
+    width:70%;
+}
+.view-one , .view-two , .view-three{
+    margin-left: 3.75rem ;
+    width:9.375rem;
+    font-size: 1.0625rem;
+    border-radius: 0.625rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.375rem;
+    border: 1px solid black;
+    font-weight: 600;
+}
+.view-one:hover , .view-two:hover , .view-three:hover{
+    cursor: pointer;
+    background-color: rgba(3, 4, 80, 0.511);
+    color:azure;
+    border: 2px solid azure;
+}
+.work-two , .work-three{
+    margin-top: 1.25rem;
+}
+.skill-three{
+    position: relative !important;
+    right:3.125rem !important;
+}
+.pic-three-skill{
+    position: relative !important;
+    right:-7.5rem !important;
+}
+
+/* responsive design */
+@media (min-width: 1024px) and (max-width: 1440px){
+    .head-work{
+        position: relative;
+        top:20.125rem;
+        font-size: 1.8125rem;
+}
+.work-one , .work-two ,.work-three{
+    position: relative;
+    top: 22.875rem;
+    height:9rem;
+}
+.work-one h3 , .work-two h3 , .work-three h3{
+    position: relative;
+    float: right;
+    right:2.9375rem;
+    top:0.625rem;
+    font-size: 0.975rem;
+}
+.pic-one-skill , .pic-two-skill , .pic-three-skill{
+    top:3.25rem;
+    right:-2.875rem;
+    width: 3rem;
+}
+.skill-para , .skill-para2 , .skill-para3{
+    margin-left: 3.5rem;
+    font-size: 0.825rem;
+    padding: 0.95rem;
+}
+.view-one , .view-two , .view-three{
+    margin-left: 4.75rem ;
+    width:6.375rem;
+    font-size: 0.825rem;
+    padding: 0.275rem;
+}
+.work-two , .work-three{
+    margin-top: 2.25rem;
+}
+
+}
+/* mobile view */
+/* for mobile */
+/* small phones */
+@media (min-width : 270px) and (max-width : 330px){
+    .head-work{
+        top:50.125rem;
+        left:3.8rem;
+        font-size: 1.825rem;
+}
+.work-one , .work-two ,.work-three{
+    top: 54.875rem;
+    height:18rem;
+    width:90%;
+    border:0.5px solid azure;
+}
+.work-one{
+    height:25rem;
+}
+.work-three{
+    height:27rem;
+}
+.work-one h3 , .work-two h3 ,.work-three h3 {
+    float: right;
+    right:5.1375rem;
+    top:0.925rem;
+    font-size: 1.2rem;
+}
+
+.skill-three{
+    position: relative !important;
+    right:4.125rem !important;
+    font-size: 0.93rem !important;
+}
+.pic-one-skill , .pic-two-skill , .pic-three-skill{
+    top:0.95rem;
+    right:-7.3rem;
+    width: 1.7rem;
+}
+.pic-two-skill{
+    position: relative;
+    right: -6rem;
+}
+.skill-para , .skill-para2 , .skill-para3{
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    top:1.5rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    width: 95%;
+    display: inline-block;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+
+.view-one , .view-two , .view-three{
+    position: relative;
+    top:2.1rem;
+    margin-left:5.8rem ;
+    width:6.375rem;
+    font-size: 0.7rem;
+    padding: 0.4rem;
+    border: 2px solid black;
+}
+.work-two , .work-three{
+    margin-top: 3.25rem;
+}
+
+.pic-three-skill{
+    position: relative !important;
+    right:-9.5rem !important;
+}
+}
+/* small phones landscape */
+@media (min-width: 500px) and (max-width: 600px){
+        .head-work{
+            top:28.125rem;
+            left:6.1rem;
+            font-size: 2.125rem;
+    }
+    .work-one , .work-two ,.work-three{
+    margin-left: 3rem;
+        top: 36.875rem;
+        height:18rem;
+        width:90%;
+        border:0.5px solid azure;
+    }
+    .work-one{
+        height:20rem;
+    }
+    .work-three{
+        height:23rem;
+    }
+    .work-one h3 , .work-two h3 ,.work-three h3 {
+        float: right;
+        right:1.9375rem;
+        top:0.925rem;
+        font-size: 1.5rem;
+    }
+    .skill-three{
+        position: relative !important;
+        right:1.125rem !important;
+        font-size: 1rem !important;
+    }
+    .pic-one-skill , .pic-two-skill , .pic-three-skill{
+        top:4.95rem;
+        right:-7rem;
+        width: 4.2rem;
+    }
+    .skill-para , .skill-para2 , .skill-para3{
+        box-sizing: border-box;
+        text-align: justify;
+        position: relative;
+        top:-1.5rem;
+        margin-left: 1.2rem;
+        font-size: 0.92rem;
+        width: 65%;
+        display: inline-block;
+        text-transform: capitalize;
+        word-spacing: 0px;
+    }
+    
+    .view-one , .view-two , .view-three{
+        position: relative;
+        top:-0.8rem;
+        left:1.7rem ;
+        width:8.375rem;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        border: 2px solid black;
+    }
+    .work-two , .work-three{
+        margin-top: 3.25rem;
+    }
+    
+    .pic-three-skill{
+        position: relative !important;
+        right:-7.5rem !important;
+    }
+    }
+/* medium & large phones */
+@media (min-width: 331px) and (max-width: 450px){
+    .head-work{
+        position: relative;
+        top:48.125rem;
+        left:5rem;
+        font-size: 1.8125rem;
+}
+.work-one , .work-two ,.work-three{
+    position: relative;
+    top: 53.875rem;
+    height:18rem;
+    width:90%;
+    border:0.5px solid azure;
+}
+.work-one{
+    height:22rem;
+}
+.work-three{
+    height:25rem;
+}
+.work-one h3 , .work-two h3 ,.work-three h3 {
+    position: relative;
+    float: right;
+    right:5.9375rem;
+    top:0.925rem;
+    font-size: 1.25rem;
+}
+.skill-three{
+    position: relative !important;
+    right:5.125rem !important;
+    font-size: 1rem !important;
+}
+.pic-one-skill , .pic-two-skill , .pic-three-skill{
+    top:0.95rem;
+    right:-7.3rem;
+    width: 2rem;
+}
+.skill-para , .skill-para2 , .skill-para3{
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    top:1.5rem;
+    margin-left: 1.5rem;
+    font-size: 0.95rem;
+    width: 90%;
+    display: inline-block;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+
+.view-one , .view-two , .view-three{
+    position: relative;
+    top:1.5rem;
+    margin-left:7.7rem ;
+    width:5.375rem;
+    font-size: 0.7rem;
+    padding: 0.4rem;
+    border: 2px solid black;
+}
+.work-two , .work-three{
+    margin-top: 3.25rem;
+}
+
+.pic-three-skill{
+    position: relative !important;
+    right:-9.5rem !important;
+}
+}
+@media (min-width:370px) and (max-width:380px){
+    .head-work{
+        top:53.125rem;
+        left:5.4rem;
+        font-size: 1.925rem;
+}
+.work-one , .work-two ,.work-three{
+    top: 57.875rem;
+    height:19rem;
+    width:90%;
+    border:0.5px solid azure;
+}
+.work-one{
+    height:25rem;
+}
+.work-three{
+    height:27rem;
+}
+.work-one h3 , .work-two h3 ,.work-three h3 {
+    float: right;
+    right:6.9rem;
+    top:0.925rem;
+    font-size: 1.25rem;
+}
+.skill-para , .skill-para2 , .skill-para3{
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    top:1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.05rem;
+    width: 90%;
+    display: inline-block;
+    text-transform: capitalize;
+    word-spacing: 4px;
+}
+.pic-two-skill{
+    top:0.95rem;
+    right:-6.3rem;
+    width: 2rem;
+}
+.view-one , .view-two , .view-three{
+    position: relative;
+    top:2.2rem;
+    margin-left:6.7rem ;
+    width:7.375rem;
+    font-size: 0.7rem;
+    padding: 0.4rem;
+    border: 2px solid black;
+}
+}
+@media (min-width:380px) and (max-width:450px){
+    .head-work{
+        top:57.125rem;
+        left:6rem;
+        font-size: 1.925rem;
+}
+.work-one , .work-two ,.work-three{
+    top: 60.875rem;
+    height:21rem;
+    width:90%;
+    border:0.5px solid azure;
+}
+.work-one{
+    height:28rem;
+}
+.work-three{
+    height:30rem;
+}
+.work-one h3  ,.work-three h3 {
+    float: right;
+    right:6.9rem;
+    top:0.925rem;
+    font-size: 1.35rem;
+}
+.work-two h3{
+    float: right;
+    right:7.9rem;
+    top:0.925rem;
+    font-size: 1.35rem;
+}
+.skill-para , .skill-para2 , .skill-para3{
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    top:1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.15rem;
+    width: 90%;
+    display: inline-block;
+    text-transform: capitalize;
+    word-spacing: 4px;
+}
+.pic-two-skill{
+    top:0.95rem;
+    right:-6.3rem;
+    width: 2rem;
+}
+.view-one , .view-two , .view-three{
+    position: relative;
+    top:2.2rem;
+    margin-left:6.7rem ;
+    width:9.375rem;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+}
+.skill-three{
+    position: relative !important;
+    right:6rem !important;
+    font-size: 1.1rem !important;
+}
+.pic-three-skill{
+    position: relative !important;
+    right:-9.7rem !important;
+}
+}
+/* tablets  and phones landscape*/
+@media (min-width: 600px) and (max-width: 1024px){
+    .head-work{
+        top:28.125rem;
+        left:6.1rem;
+        font-size: 3.125rem;
+}
+.work-one , .work-two ,.work-three{
+margin-left: 3rem;
+    top: 36.875rem;
+    height:20rem;
+    width:90%;
+    border:0.5px solid azure;
+}
+.work-one{
+    height:25rem;
+}
+.work-three{
+    height:28rem;
+}
+.work-one h3 , .work-two h3 ,.work-three h3 {
+    float: right;
+    right:3.9375rem;
+    top:1.925rem;
+    font-size: 1.95rem;
+}
+.skill-three{
+    position: relative !important;
+    right:2.125rem !important;
+    font-size: 1.7rem !important;
+}
+.pic-one-skill , .pic-two-skill , .pic-three-skill{
+    top:6.95rem;
+    right:-6rem;
+    width: 6.2rem;
+}
+.skill-para , .skill-para2 , .skill-para3{
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    top:-3.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+    width: 60%;
+    display: inline-block;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+
+.view-one , .view-two , .view-three{
+    position: relative;
+    top:1rem;
+    left:-19.7rem ;
+    width:8.375rem;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+}
+.work-two , .work-three{
+    margin-top: 3.25rem;
+}
+
+.pic-three-skill{
+    position: relative !important;
+    right:-11.5rem !important;
+}
+}
+/* special case */
+@media (min-width:900px) and (max-width: 920px){
+    .skill-para2 {
+        box-sizing: border-box;
+        text-align: left;
+        position: relative;
+        top:3.5rem;
+        margin-left: 1.5rem;
+        font-size: 1.25rem;
+        width: 60%;
+        display: inline-block;
+        text-transform: capitalize;
+        word-spacing: 2px;
+    }
+     #view-two {
+        position: relative;
+        top:6rem;
+        left:9.7rem ;
+        width:8.375rem;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        border: 2px solid black;
+    }
+}
+/* laptops & tablets landscape */
+@media (min-width: 1024px) and (max-width: 1440px){
+        .head-work{
+        top:28.125rem;
+        left:6.1rem;
+        font-size: 3.125rem;
+}
+.work-one , .work-two ,.work-three{
+margin-left: 3rem;
+    top: 36.875rem;
+    height:20rem;
+    width:90%;
+    border:0.5px solid azure;
+}
+.work-one{
+    height:24rem;
+}
+.work-three{
+    height:27rem;
+}
+.work-one h3 , .work-two h3 ,.work-three h3 {
+    float: right;
+    right:3.9375rem;
+    top:1.925rem;
+    font-size: 1.95rem;
+}
+.skill-three{
+    position: relative !important;
+    right:2.125rem !important;
+    font-size: 1.7rem !important;
+}
+.pic-one-skill , .pic-two-skill , .pic-three-skill{
+    top:6.95rem;
+    right:-6rem;
+    width: 6.2rem;
+}
+
+.skill-para , .skill-para2 ,.skill-para3{
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    top:-1.8rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    width: 70%;
+    display: inline-block;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+.view-one , .view-two , .view-three{
+    position: relative;
+    top:2.8rem;
+    left:-29.7rem ;
+    width:12.375rem;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    border: 2px solid black;
+}
+.work-two , .work-three{
+    margin-top: 3.25rem;
+}
+
+.pic-three-skill{
+    position: relative !important;
+    right:-11.5rem !important;
+}
+}
+/* special case */
+@media (min-width: 1100px) and (max-width: 1130px){
+    .view-one , .view-two , .view-three{
+        position: relative;
+        top:0.8rem;
+        left:9.7rem ;
+        width:12.375rem;
+        font-size: 1.2rem;
+        padding: 0.6rem;
+        border: 2px solid black;
+    }
+}
+@media (min-width: 1020px) and (max-width: 1030px){
+    .work-one , .work-two ,.work-three{
+        margin-left: 3rem;
+            top: 36.875rem;
+            height:22rem;
+            width:90%;
+            border:0.5px solid azure;
+        }
+        .work-one{
+            height:27rem;
+        }
+        .work-three{
+            height:29rem;
+        }
+    .view-one , .view-two , .view-three{
+        position: relative;
+        top:0.8rem;
+        left:9.7rem ;
+        width:12.375rem;
+        font-size: 1.2rem;
+        padding: 0.6rem;
+        border: 2px solid black;
+    }
+}
+@media (min-width: 1190px) and (max-width: 1300px){
+     .view-two {
+        position: relative;
+        top:5.8rem;
+        left:23rem ;
+        width:12.375rem;
+        font-size: 1.2rem;
+        padding: 0.6rem;
+        border: 2px solid black;
+    }
+    .skill-para2 {
+        box-sizing: border-box;
+        text-align: left;
+        position: relative;
+        top:2.8rem;
+        margin-left: 1.5rem;
+        font-size: 1.5rem;
+        width: 70%;
+        display: inline-block;
+        text-transform: capitalize;
+        word-spacing: 2px;
+    }
+}

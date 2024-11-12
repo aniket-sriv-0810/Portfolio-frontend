@@ -1,0 +1,175 @@
+/* font families */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;900&display=swap');
+
+/* full css of nav bar with responsive nature */
+/* default style reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body styling */
+body{
+    background: linear-gradient(to right,rgb(0, 0, 0),rgba(30, 27, 27, 0.897));
+    overflow-x:hidden ;
+    user-select:none;
+}
+
+/* nav bar style */
+/* list is ul*/
+#list{
+    position:sticky;
+    top:0;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.928);
+    gap:8.75rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/* items in ul */
+ul li{
+    list-style: none;
+    font-size: 1.1875rem;
+    font-family: 'Roboto', sans-serif;
+    padding: .5rem;
+    text-transform: uppercase;
+    color:azure;
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem rgb(3, 154, 8);
+    
+}
+
+/* title pic in nav bar */
+ul li img{
+    width:2.5rem;
+    background-color: rgba(208, 206, 206, 0.828);
+    border-radius: 50%;
+    box-shadow: 0.0625rem 0.0625rem 0.0625rem azure;
+}
+/* button in nav bar */
+li button{
+padding:.4375rem;
+width: 10.625em;
+text-align: center;
+text-transform: uppercase;
+font-size: 1rem;
+font-family: 'Roboto', sans-serif;
+border-radius: 1.25rem;
+border: 0.125rem solid rgb(2, 100, 0);
+box-shadow:0.0625rem 0.0625rem 0.0625rem rgb(11, 13, 11);
+background-color: rgb(18, 16, 16);
+color:azure;
+text-shadow: 0.125rem 0.125rem 0.125rem rgb(32, 32, 32);
+ letter-spacing: 0.0625rem;
+}
+/* hover effect on button */
+.btn-hover:hover{
+    cursor: pointer;
+    box-shadow: 0.125rem 0.0625rem 0.0625rem rgb(6, 7, 7);
+    border: 0.1875rem solid black;
+    color:azure;
+    font-weight: bold;
+    background-color: rgb(9, 77, 9);
+    text-shadow: 0.125rem 0.125rem 0.125rem black;
+    letter-spacing:0.0625rem;
+}
+/* nav bar scroll property */
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+    opacity: 0.75;
+    transition: top 2s ease-in-out 0.2s;
+    z-index: 2;
+}
+
+/* responsive nature */
+/* for mobile */
+/* small phones */
+@media (min-width : 270px) and (max-width : 330px){
+    #list{
+        gap:0.35rem;
+        margin-left: 0.15rem;
+    }
+    #list li{
+        font-size: 0.60rem;
+        text-shadow: 0.7px 0.7px 0.7px green;
+    }
+    ul li img{
+        width:1.1rem;
+    }
+    li button{
+        width:3.925rem;
+        font-size: 0.5rem;
+    }
+}
+/* medium phones  & large phones   */
+@media (min-width: 331px) and (max-width: 450px) {
+    #list{
+        gap:0.75rem;
+        margin-left: 0.4375rem;
+    }
+    #list li{
+        font-size: 0.60rem;
+        text-shadow: 0.7px 0.7px 0.7px green;
+    }
+    ul li img{
+        width:1.2rem;
+    }
+    li button{
+        width:4.625rem;
+        font-size: 0.6rem;
+    }
+}
+@media(min-width:340px ) and (max-width: 365px){
+    #list{
+        gap:0.45rem;
+        margin-left: 0.4375rem;
+    }
+}
+/* medium & tablets & ipads  and landscape mode of phones*/
+@media (min-width: 451px) and (max-width: 1023px){
+    #list{
+        gap:3.85rem;
+        margin-left: 0.875rem;
+    }
+    #list li{
+        font-size: 0.8rem;
+        text-shadow: 0.7px 0.7px 0.7px green;
+    }
+    ul li img{
+        width:1.5rem;
+    }
+    li button{
+        width:7.625rem;
+        font-size: 0.8rem;
+    }
+}
+/* small phone landscape mode */
+@media (min-width : 500px) and (max-width:600px){
+    #list{
+        gap:2.25rem;
+        margin-left: 0.875rem;
+    }
+    #list li{
+        font-size: 0.7rem;
+        text-shadow: 0.7px 0.7px 0.7px green;
+    }
+    ul li img{
+        width:1.5rem;
+    }
+    li button{
+        width:6.625rem;
+        font-size: 0.7rem;
+    }
+}
+/* laptops  and tablets landscapes*/
+@media (min-width: 1024px) and (max-width: 1450px){
+    #list{
+        gap:6.75rem;
+    }
+    #list li{
+        font-size: 1rem;
+    }
+}
